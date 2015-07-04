@@ -6,9 +6,10 @@
   <nav class="main-nav overlay clearfix">
 {{else}}
 <header class="main-header post-head no-cover">
+  <div class="main-header-overlay post-head"></div>
   <nav class="main-nav clearfix">
 {{end}}
-
+ 
   {{ if .Site.Params.logo }}
       <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>
   {{end}}
